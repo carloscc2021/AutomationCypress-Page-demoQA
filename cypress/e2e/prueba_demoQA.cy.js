@@ -17,8 +17,8 @@ describe("Completar formulario", function() {
             .type("Ccanto Torres") 
         cy.get("input[id='userEmail']")
             .type("carloscctorres@gmail.com")   
-        /*cy.get("input[value='Male']")
-            .click()*/
+        cy.get("input[id='gender-radio-1']")
+            .click()
 
     })
 })
